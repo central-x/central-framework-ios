@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CentralX (0.1.0):
+    - AFNetworking (~> 4.0)
+    - CentralX/CentralBridge (= 0.1.0)
+    - CentralX/CentralCategory (= 0.1.0)
+    - CentralX/CentralDb (= 0.1.0)
+    - CentralX/CentralFile (= 0.1.0)
+    - CentralX/CentralHttp (= 0.1.0)
+    - CentralX/CentralPromise (= 0.1.0)
+    - CentralX/CentralRuntime (= 0.1.0)
+    - CentralX/CentralStream (= 0.1.0)
+  - CentralX/CentralBridge (0.1.0):
+    - AFNetworking (~> 4.0)
+    - CentralX/CentralDb
+  - CentralX/CentralCategory (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralDb (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralFile (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralHttp (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralPromise (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralRuntime (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralStream (0.1.0):
+    - AFNetworking (~> 4.0)
+
+DEPENDENCIES:
+  - CentralX (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  CentralX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CentralX: 71cc0bb1e231c776d7f6d4b52c97dd563dc42b75
+
+PODFILE CHECKSUM: 6464c1e1d0fc1c8e28b35195b2d6f76a111b07fe
+
+COCOAPODS: 1.11.3
