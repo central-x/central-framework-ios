@@ -1,0 +1,78 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CentralX (0.1.0):
+    - AFNetworking (~> 4.0)
+    - CentralX/CentralBridge (= 0.1.0)
+    - CentralX/CentralCategory (= 0.1.0)
+    - CentralX/CentralDb (= 0.1.0)
+    - CentralX/CentralHttp (= 0.1.0)
+    - CentralX/CentralIO (= 0.1.0)
+    - CentralX/CentralLayout (= 0.1.0)
+    - CentralX/CentralPromise (= 0.1.0)
+    - CentralX/CentralRuntime (= 0.1.0)
+    - CentralX/CentralStream (= 0.1.0)
+    - CentralX/CentralStyle (= 0.1.0)
+  - CentralX/CentralBridge (0.1.0):
+    - AFNetworking (~> 4.0)
+    - CentralX/CentralBridge/Resources (= 0.1.0)
+    - CentralX/CentralDb
+  - CentralX/CentralBridge/Resources (0.1.0):
+    - AFNetworking (~> 4.0)
+    - CentralX/CentralDb
+  - CentralX/CentralCategory (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralDb (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralHttp (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralIO (0.1.0):
+    - AFNetworking (~> 4.0)
+    - SSZipArchive
+  - CentralX/CentralLayout (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralPromise (0.1.0):
+    - AFNetworking (~> 4.0)
+    - CentralX/CentralRuntime
+  - CentralX/CentralRuntime (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralStream (0.1.0):
+    - AFNetworking (~> 4.0)
+  - CentralX/CentralStyle (0.1.0):
+    - AFNetworking (~> 4.0)
+    - CentralX/CentralRuntime
+  - SSZipArchive (2.4.3)
+
+DEPENDENCIES:
+  - CentralX (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  CentralX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CentralX: 5a20bbbb272d4309c4c34491a4c08f2f6448847b
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+
+PODFILE CHECKSUM: 6464c1e1d0fc1c8e28b35195b2d6f76a111b07fe
+
+COCOAPODS: 1.11.3

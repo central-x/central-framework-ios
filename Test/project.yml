@@ -1,0 +1,20 @@
+name: CentralX
+options:
+  bundleIdPrefix: com.central-x
+  developmentLanguage: zh_CN
+  tabWidth: 3
+  indentWidth: 3
+targets:
+  CentralX:
+    type: application
+    platform: iOS
+    deploymentTarget: "10.0"
+    sources: [CentralX]
+    settings:
+      configs:
+        debug:
+          CUSTOM_BUILD_SETTING: my_debug_value
+        release:
+          CUSTOM_BUILD_SETTING: my_release_value
+  Test:
+    type: 
